@@ -1,6 +1,10 @@
 # **confiy**
 
 Confiy is easiest way to read config file only with key. 
+#### Install:
+```python
+pip install confiy
+```
 
 #### Caution:
 You must create a config file where you need to call, with any extension but .cnf is better and then write your configs in file such as following lines:
