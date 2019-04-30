@@ -24,6 +24,19 @@ You must create a config file where you need to call, with any extension but .cn
             print(confiy().getValue(key='key1'))
         ```   
 
-Easy to install and easier to use
+If you have multiple value for determine key, you get all of them as a list:
 
+- conf.cnf 
+    ```python
+        key1=value1
+        key2="string with value2"
+        key3="string with value3"
+        key1=value2
+        key1=value3
+    ```   
+    Output:
+    ```python
+        ['value3', 'value2', 'value1']
+    ``` 
+    
 Use python version >= 2.7
