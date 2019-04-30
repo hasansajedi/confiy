@@ -24,7 +24,12 @@ You must create a config file where you need to call, with any extension but .cn
             print(confiy().getValue(key='key1'))
         ```   
 
-If you have multiple value for determine key, you get all of them as a list:
+If you have multiple value for entered key, you can set allow_duplicate with boolean value and you have two choice:
+
+    1. (True) Get all of them as a list
+    2. (False) Get the ValueError exception
+    
+getValue function have a boolean variable with allow_duplicate name. Default value is True, if tou set it False , you get ValueError exception.
 
 - conf.cnf 
     ```python
