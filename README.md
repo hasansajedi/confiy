@@ -1,5 +1,6 @@
 # **confiy**
 
+With this library you can easy read config file and get your value only by key, in python projects.
 Confiy is easiest way to read config file only with key. 
 #### Install:
 ```python
