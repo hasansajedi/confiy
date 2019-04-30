@@ -2,7 +2,7 @@
 
 Confiy is easiest way to read config file only with key. 
 
-####Caution:
+## Caution:
 You must create a config file where you need to call, with any extension but .cnf is better and then write your configs in file such as following lines:
 
 - my_prj
